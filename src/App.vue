@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <CreatePurifier msg="Welcome to Your Advance Purifier"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CreatePurifier from './components/CreatePurifier.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    CreatePurifier
   }
 }
 </script>
